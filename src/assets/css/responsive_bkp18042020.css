@@ -1,0 +1,284 @@
+﻿/*=====================================
+---------------------------------------
+R E S P O N S I V E  - CSS  - S T A R T 
+---------------------------------------
+=======================================*/
+
+/*
+    FILE INFO
+  ========================================
+    WEBSITE NAME        - Nimbus Multi Services
+    WORK STARTED DATE   - 16.10.2016/01:43am
+    CSS TYPE            - Only Responsive
+    CSS CREATED BY      - S.Shakil Ahmed
+  ========================================
+*/
+
+
+/*=====================================
+---------------------------------------
+BRAKE POINTS:-
+            - max-width: 1024px
+            - min-width: 768px
+            - max-width: 667px            
+            - max-width: 600px            
+            - max-width: 568px
+            - max-width: 480px
+            - max-width: 375px Main Changer
+            - max-width: 320px            
+---------------------------------------   
+=======================================*/
+
+
+
+/*@media screen and (min-width: 1366px) {
+.container {
+    width: 1300px;
+    max-width: 100%;
+}
+
+} this is a setting for larger screens */
+
+
+
+
+@media all and (max-width: 1166px) {
+}
+
+/*================================================================================
+    @media all and (max-width: 1024px) START Tab
+  ================================================================================*/
+
+@media all and (max-width: 1024px) {
+}
+/*================================================================================
+    @media all and (max-width: 1024px) END Tab
+  ================================================================================*/
+
+
+/*================================================================================
+    @media all and (max-width: 768px) START iPhone - 6
+  ================================================================================*/
+
+@media all and (max-width: 768px) {
+}
+
+/*================================================================================
+    @media all and (max-width: 768px) END iPhone - 6
+  ================================================================================*/
+
+
+/*================================================================================
+    @media all and (max-width: 667px) START iPhone - 6
+  ================================================================================*/
+
+@media all and (max-width: 667px) {
+}
+
+/*================================================================================
+    @media all and (max-width: 667px) END iPhone - 6
+  ================================================================================*/
+
+
+/*================================================================================
+    @media all and (max-width: 600px) START Tab
+  ================================================================================*/
+
+@media all and (max-width: 600px) {
+}
+
+/*================================================================================
+    @media all and (max-width: 600px) END Tab
+  ================================================================================*/
+
+
+/*================================================================================
+    @media all and (max-width: 568px) START iPhone - 5
+  ================================================================================*/
+
+@media all and (max-width: 568px) {
+}
+
+/*================================================================================
+    @media all and (max-width: 568px) END iPhone - 5
+  ================================================================================*/
+
+
+
+
+
+/*================================================================================
+    @media all and (max-width: 480px) START iPhone - 3 + 4
+  ================================================================================*/
+@media all and (max-width: 480px) {
+
+    .sliderOtr {
+        width: 100%;
+        height: 250px;
+        background: url(../images/sliderBG.jpg);
+        display: table;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .isw_left {
+        float: left;
+        padding: 0px 0 0 0;
+        width: 100%;
+    }
+
+        .isw_left h1 {
+            padding: 0;
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 50px;
+            color: #ffffff;
+            text-align: left;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .isw_left p {
+            font-family: 'Raleway', sans-serif;
+            color: #ffffff;
+            font-size: 16px;
+            text-align: left;
+            margin: 0;
+            padding: 0px 0 0 2px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            line-height: 26px;
+        }
+
+
+    .isw_searchBox {
+        width: 100%;
+        padding: 10px 0 0 0;
+    }
+
+    .isw_right {display:none;}
+
+    .innerSliderWrap {
+        width: 100%;
+        /* display: table; */
+        position: relative;
+        z-index: 899;
+        top: 20px;
+    }
+
+
+    ul#tabs-nav li {
+        float: left;
+        font-weight: bold;
+        margin-right: 2px;
+        padding: 13px 10px;
+        border-radius: 0;
+        cursor: pointer;
+        width: 100%;
+        background: #174d7c;
+    }
+
+    .grand_searchWrap ul li:nth-child(1), .grand_searchWrap ul li:nth-child(2), .grand_searchWrap ul li:nth-child(3), .grand_searchWrap ul li:nth-child(4) {
+        width: 100%;
+        margin: 0 0 10px 0;
+        top:0;
+    }
+
+    .Grand_Search_hdr > h1 {text-align:left;}
+    .gsw_ng_inoutWrap {
+        width: 100%;
+        display: table;
+        float: left;
+        margin: 10px 0 0 0px;
+        position: relative;
+    }
+    .PC_profileWrap img {
+        width: 100%;
+    }
+
+    .homeSearch_Wrap .tabs {
+        margin: 0 0 -30px 0;
+    }
+
+    .innerSec03 .col-md-4:first-child .P_cardOtrWrap {
+        margin-top: 20px;
+    }
+
+    .gbltxtLine01 h1 {
+        font-family: 'Archivo Black', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 28px 10px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .testiM_Wrap {display:none;}
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        border: 2px solid #1c2742;
+        position: relative;
+        font: normal normal normal 22px/1 FontAwesome;
+        /* text-align: center; */
+        padding: 0 4px;
+        margin: 0;
+        right: 10px;
+    }
+
+    .navbar-toggler:before {
+        content: '\f039';
+        /* width: 46px; */
+        /* height: 4px; */
+        color: #1d2843;
+        top: 6px;
+        left: 10px;
+        position: absolute;
+    }
+}
+
+/*================================================================================
+    @media all and (max-width: 480px) END iPhone - 3 + 4
+  ================================================================================*/
+
+
+
+
+
+
+/*================================================================================
+    @media all and (max-width: 375px) START iPhone - 6
+  ================================================================================*/
+
+@media all and (max-width: 375px) {
+
+}
+
+
+/*================================================================================
+    @media all and (max-width: 375px) END iPhone - 6
+  ================================================================================*/
+
+
+
+
+
+/*================================================================================
+    @media all and (max-width: 320px) START iPhone - 3 + 4
+  ================================================================================*/
+
+@media all and (max-width: 320px) {
+
+}
+
+
+/*================================================================================
+    @media all and (max-width: 320px) END iPhone - 3 + 4
+  ================================================================================*/
+
+/*=====================================
+---------------------------------------
+R E S P O N S I V E  - CSS  -     E N D 
+---------------------------------------
+=======================================*/
